@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+body{
+ background-image: url("./Media/bridge.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 10px;
+}
+.card{
+    width: 100%;
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 0, 0.788);
+    border-radius: 20px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+.back button{
+    font: "Kanit", sans-serif;
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    border-style: none;
+    border-radius: 50px;
+    background-color: white;
+    margin-bottom: 10px;
+
+}
+.logo img{
+  width: 400px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+
+}
+.logo h1{
+    color: white;
+    font-size: 50px;
+}
+.Prices{
+  color: white;
+}
+.Prices h1{
+    font-size: 40px;
+}
+.Prices h2{
+    font-size: 30px;
+}
+.Prices p {
+    text-align: left;
+    font-size: 20px;
+}
+button{
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 100px;
+    background-color: white;
+    transition-duration: 250ms;
+}
+button:hover{
+    background-color: yellow;
+    width: 210px;
+    height: 70px;
+}

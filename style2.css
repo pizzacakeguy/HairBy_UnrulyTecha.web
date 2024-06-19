@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+button{
+    font: "Kanit", sans-serif;
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    border-style: none;
+    background-color: white;
+
+}
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+header img{
+    width: 200px;
+}
+#Contacts{
+    text-align: center;
+    text-decoration: none;
+    color:white
+}
+#Contacts:hover{
+  cursor: default;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+}
+.email{   
+    background-color: #EF5B5B;   
+}
+.phone{
+    background-color:#20A39E;
+}
+.socials{
+    background-color: #FFBA49;
+}
+.socials img {
+    height: 70px;
+    transition-duration: 500ms;
+}
+.socials img:hover {
+    height: 80px;
+}

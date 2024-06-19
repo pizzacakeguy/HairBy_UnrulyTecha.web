@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+#home{
+    text-align: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover; 
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+
+}
+#nav{
+    text-decoration: none;
+}
+button{
+ overflow: auto;
+ text-decoration: none;
+ font-size: larger;
+ width: 200px;
+ height: 50px;
+ border-radius: 10px;
+ background-color: white;
+ border-style: none;
+ transition-duration: 600ms;
+
+}
+button:hover{
+    font-size: x-large;
+    width: 250px;
+    cursor: pointer;
+    background-color: yellow;
+}
+@keyframes slide {
+   from {
+    transform: translateX(0);
+   }
+   to {
+    transform: translateX(-100%)
+   }
+}
+.hairDisplay{
+    overflow: hidden;
+    white-space: nowrap; 
+}
+.hairSlide{
+    display: inline-block;
+   animation: 35s slide infinite linear;
+}
+
+.hairSlide img{
+  height: 350px;
+  margin: 0 5px;
+  transition-duration: 600ms;
+}
+.hairSlide img:hover{
+    height: 360px;
+}
+
